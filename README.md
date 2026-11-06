@@ -1,88 +1,39 @@
-Welcome to The Nuts and Bolts of Machine Learning — a hands-on repository where I dive deep into the core principles, algorithms, and real-world applications of Machine Learning.
+# The Nuts and Bolts of Machine Learning
 
-This space contains my projects, experiments, notes, and implementations as I continue exploring and mastering the art and science of ML — from foundational algorithms to advanced models.
+Hands-on machine learning labs from Google's *The Nuts and Bolts of Machine Learning* course, with executive summaries written for non-technical readers.
 
-🚀 What You’ll Find Here
+## What's in this repo
 
-Each folder in this repo represents a focused topic, concept, or project related to machine learning.
+| File | What it is |
+|---|---|
+| `Automatidata project lab(The Nuts and bolts of Machine Learning).ipynb` | Automatidata case-study lab (notebook) |
+| `python-Automatidata project lab.py` | The same lab as a Python script |
+| `Beth's-Automatidata-Executive-Summary.pptx` | Executive summary of the Automatidata findings |
+| `Beth's-Waze project lab.py` | Waze case-study lab (script) |
+| `Beth's-Exemplar_-Waze-Course-6-executive-summary.pptx` | Executive summary of the Waze findings |
+| `Building a Naive Bayes model.ipynb` | Building and evaluating a Naive Bayes classifier |
+| `Feature engineering.ipynb` | Creating and selecting features for modelling |
 
-Category	Description
-🧩 Supervised Learning	Projects on regression, classification, and feature engineering.
-🌲 Ensemble Methods	Random Forests, Gradient Boosting, and Bagging experiments.
-🤖 Unsupervised Learning	Clustering (K-Means, DBSCAN), PCA, dimensionality reduction.
-🧮 Mathematical Foundations	Linear algebra, statistics, and optimization essentials.
-🧠 Deep Learning	Neural networks, CNNs, RNNs, and transfer learning projects.
-🧾 Real-World Applications	Case studies using real datasets (finance, healthcare, NLP, etc.).
-📂 Structure
-The-Nuts-and-Bolts-of-Machine-Learning/
-│
-├── datasets/                 # Sample or cleaned datasets
-├── notebooks/                # Jupyter notebooks for each topic/project
-├── scripts/                  # Python scripts for model implementation
-├── reports/                  # Summaries, visuals, and documentation
-├── models/                   # Trained or serialized models (.pkl/.h5)
-└── README.md                 # You’re here!
+## Tech
 
-🧑‍💻 Tech Stack
+Python, NumPy, pandas, scikit-learn, Matplotlib, Seaborn, Jupyter.
 
-Languages: Python
+## Run it
 
-Libraries: NumPy, Pandas, Scikit-learn, TensorFlow / PyTorch, Matplotlib, Seaborn
-
-Tools: Jupyter Notebook, VS Code, Git, Kaggle
-
-🎯 Goals
-
-Build a strong foundation in machine learning concepts.
-
-Develop real-world, end-to-end projects.
-
-Enhance model interpretability and performance.
-
-Share knowledge, code, and insights with the community.
-
-🧩 Featured Projects
-
-🪙 Enron POI Identifier – Identify persons of interest in the Enron scandal using financial and email data.
-
-😴 Driver Drowsiness Detection – Real-time detection using OpenCV and ML models.
-
-🗣️ Voice Assistant (Axora) – AI-driven personal assistant integrating ML, STT, and TTS.
-
-(More coming soon...)
-
-💡 Inspiration
-
-"Machine learning is not magic—it’s math, logic, and creativity at work."
-— Beth Kimani
-
-🛠️ How to Run
-
-Clone the repository
-
-git clone https://github.com/<your-username>/The-Nuts-and-Bolts-of-Machine-Learning.git
-
-
-Navigate into the project
-
+```bash
+git clone https://github.com/Njerikim/The-Nuts-and-Bolts-of-Machine-Learning.git
 cd The-Nuts-and-Bolts-of-Machine-Learning
-
-
-Install dependencies
-
-pip install -r requirements.txt
-
-
-Open Jupyter Notebooks and explore!
-
+pip install numpy pandas scikit-learn matplotlib seaborn jupyter
 jupyter notebook
+```
 
-🤝 Contributing
+Open any `.ipynb` file to follow the lab. The notebooks expect their datasets to be available locally.
 
-This is a personal learning repository — but feel free to fork, star ⭐, or share suggestions via pull requests or issues!
+## Why the executive summaries
 
-📬 Contact
+Each case study ends with a short deck that explains the problem, the model and the recommendation in plain language, because a model only matters if the people who decide can understand it.
 
-Author: Beth Kimani
-LinkedIn: https://www.linkedin.com/in/beth-kimani-23605028b/
-Email: njeribk57@gmail.com
+## Author
+
+Beth Njeri Kimani, AI/ML engineer and founder of [Axene.io](https://axene.io).
+[LinkedIn](https://www.linkedin.com/in/beth-kimani-23605028b/) · njeribk57@gmail.com
